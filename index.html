@@ -89,8 +89,8 @@
       </section>
     </header>
 
-    <main>
       <!--offers-->
+
       <section class="mt-28">
         <h3 class="text-4xl font-semibold text-center">Best offers for you</h3>
         <div class="flex flex-col items-center gap-20 mt-4">
@@ -132,6 +132,131 @@
           </div>
           <div>
             <button class="btn btn-outline btn-success">See all offers</button>
+          </div>
+        </div>
+      </section>
+
+      <!--ticket section-->
+
+      <section class="bg-white shadow-2xl rounded-xl">
+        <div class="flex flex-col md:flex-row gap-5 rounded-xl p-8">
+          <div class="w-5/6 space-y-4 ">
+              <!-- seat count down div -->
+              <div class="flex justify-between ">
+                <div class="flex space-x-3 h-2/3">
+                  <img src="images/bus-logo.png" alt="">
+                  <div class="">
+                    <h1 class="text-3xl  font-extrabold text-[#030712] ">Greenline Paribahan</h1>
+                    <p class="text-base">Coach-009-WEB!Ac_Business</p>
+                 </div>
+                </div>
+                <div class="flex bg-green-200 rounded-lg p-5 space-x-3">
+                  <img class="" src="images/seat-green.png" alt="">
+                  <button class= "text-[#1dd100] text-xl"><span id="seat-down">8  </span> Seats left</button>
+                </div>
+              </div>
+              <div class="shadow-md rounded-lg bg-gray-100 space-y-8 p-12">
+                <div class="flex justify-between h-2/3  ">
+                  <div><p class="text-xl text-[#030712]">Route</p></div>
+                  <div><p class="text-xl text-[#030712] font-bold">Dhaka - Sylhet</p></div>
+              </div>
+              <hr class="border-dashed border-2">
+              <div class="flex justify-between  ">
+                <div><p class="text-xl text-[#030712]">Departure Time</p></div>
+                <div><p class="text-xl text-[#030712] font-bold">9.00 PM</p></div>
+              </div>
+              <hr class="border-dashed border-2">
+              <div class="flex justify-between gap-x-4">
+                <div><p class="rounded-xl bg-gray-200 p-5 text-base font-semibold">Boarding Point-Laximpur</p></div>
+                <div><p class="rounded-xl bg-gray-200 p-5 text-base font-semibold">Dropping Point-Bogura</p></div>
+                <div><p class="rounded-xl bg-gray-200 p-5 text-base font-semibold">Est.Time-11 Hour</p></div>
+              </div>
+            </div>
+        </div>
+
+        <!-- 550 taka area -->
+       <div class="w-2/6 relative">
+        <div class=" absolute top-32 right-12 ">
+          <img src="images/fare.png" class="w-12 h-12" alt=""><br>
+            <h1 class="text-4xl font-extrabold"><span id="ticket-price">550  </span> Taka <br> <span class="text-2xl opacity-40">Per Seat</span></h1>
+          </div>
+
+       </div>
+      </div>
+
+      </section>
+   <!-- seat or per seat price section end-->
+
+      <!-- select your seat start -->
+
+      <section class="bg-white rounded-xl shadow-2xl my-24">
+
+        <div class="flex flex-col md:flex-row gap-6 p-6">
+
+          <div class="w-4/6 space-y-6">
+
+            <h1 class="text-[#030712] font-semibold text-2xl">Select Your Seat</h1>
+
+            <hr class="divide-dashed divide-2">
+
+            <div class="flex justify-between ">
+
+              <div class="flex space-x-3">
+                <img src="images/seat-gray.png" alt="">
+                <h1 class="text-xl font-bold opacity-50">Available</h1>
+              </div>
+
+              <div class="flex space-x-3">
+                <img src="images/seat-green-filled.png" alt="">
+                <h1 class="text-xl font-bold text-[#1dd100]">Selected</h1>
+              </div>
+            </div>
+            <hr class="divide-dashed divide-2">
+            <div class="flex justify-end pr-5  items-center bg-[#f7f8f8] ">
+            <img src="images/wheel.png" alt="">
+            </div>
+            <!-- seat area -->
+          <div class="grid grid-cols-5  gap-4">
+            <p>A</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100] ">A1</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100] ">A2</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100] ">A3</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100] ">A4</p>
+            <p>B</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100] ">B1</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100] ">B2</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100] ">B3</p>
+            <p class="seat bg-[#f7f8f8] text-base rounded-md shadow-lg p-3 text-center hover:bg-[#1dd100]">B4</p>
+          </div>
+          </div>
+          <!-- add price area -->
+          <div class="w-2/6 space-y-6">
+            <h1 class="text-[#030712] font-semibold text-2xl">Select Your Seat</h1>
+            <hr class="divide-dashed divide-2">
+            <div class="flex justify-between">
+
+              <!-- seat count 1 add -->
+              <div class="text-base font-medium">Seat <span id="seat-up"  class="bg-[#1dd100] text-white font-bold rounded-lg text-sm py-1 px-2">0</span></div>
+              <div class="text-base font-medium">Class</div>
+              <div class="text-base font-medium">Price</div>
+            </div>
+            <div id="select-bus-price" ></div>
+            <!-- total price add-->
+            <div class="flex justify-between">
+              <p class="text-base font-medium text-[#030712]">Total Price</p>
+              <button class="text-base font-medium text-[#030712]">BDT  <span id="total-price" >0</span></button>
+            </div>
+            <!--coupon code-->
+            <div class="coupon-code flex justify-between">
+              <input id ="coupon-code" type="text" placeholder="Have any coupon?">
+              <button id="apply-btn" class="apply-btn bg-[#1dd100] px-4 py-2 items-center rounded-lg text-white">Apply</button>
+            </div>
+            <hr class="divide-dashed divide-2">
+            <!-- grand total -->
+            <div class="flex justify-between">
+              <p class="text-base font-medium text-[#030712]">Grand Total</p>
+              <button  class="text-base font-medium text-[#030712]">BDT  <span id="grand-total">0</span></button>
+            </div>
           </div>
         </div>
       </section>
